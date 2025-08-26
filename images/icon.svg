@@ -1,0 +1,38 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- 背景圓形 -->
+  <circle cx="64" cy="64" r="60" fill="url(#grad1)" stroke="#fff" stroke-width="4"/>
+
+  <!-- 輪盤分割線 -->
+  <g stroke="#fff" stroke-width="2" opacity="0.8">
+    <line x1="64" y1="4" x2="64" y2="124" />
+    <line x1="4" y1="64" x2="124" y2="64" />
+    <line x1="19" y1="19" x2="109" y2="109" />
+    <line x1="109" y1="19" x2="19" y2="109" />
+  </g>
+
+  <!-- 中央圓點 -->
+  <circle cx="64" cy="64" r="8" fill="#FFD700" stroke="#fff" stroke-width="2"/>
+
+  <!-- 指針 -->
+  <polygon points="64,10 70,25 58,25" fill="#FFD700" stroke="#fff" stroke-width="1"/>
+
+  <!-- 餐具圖案 -->
+  <g fill="#fff" opacity="0.9">
+    <!-- 叉子 -->
+    <rect x="45" y="45" width="2" height="20" />
+    <rect x="48" y="45" width="2" height="20" />
+    <rect x="44" y="45" width="8" height="2" />
+
+    <!-- 刀子 -->
+    <rect x="75" y="45" width="3" height="20" />
+    <rect x="75" y="45" width="8" height="3" />
+  </g>
+</svg>
+

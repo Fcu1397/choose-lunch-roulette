@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "午餐天選之輪",
+  "version": "1.0.0",
+  "description": "用轉盤幫你決定中午吃什麼！智慧排除最近吃過的餐廳。",
+  "icons": {
+    "128": "images/icon.svg"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "images/icon.svg"
+    },
+    "default_title": "午餐天選之輪"
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": []
+}
