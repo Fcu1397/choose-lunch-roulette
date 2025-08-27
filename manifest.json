@@ -4,12 +4,16 @@
   "version": "1.0.0",
   "description": "用轉盤幫你決定中午吃什麼！智慧排除最近吃過的餐廳。",
   "icons": {
-    "128": "images/icon.svg"
+    "128": "images/icon128.png",
+    "48": "images/icon48.png",
+    "16": "images/icon16.png"
   },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "128": "images/icon.svg"
+      "128": "images/icon128.png",
+      "48": "images/icon48.png",
+      "16": "images/icon16.png"
     },
     "default_title": "午餐天選之輪"
   },
